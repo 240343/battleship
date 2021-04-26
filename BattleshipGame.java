@@ -14,6 +14,8 @@ public class BattleshipGame {
 		
 		System.out.println("Welcome to Battleship!");
 		
+		printHelp();
+		
 		boolean cont = true;
 		int fired = 0;
 		int hit = 0;
@@ -84,7 +86,7 @@ public class BattleshipGame {
 
 	private static void printHelp() {
 		System.out.println();
-		System.out.println("view board - displays the user¡¯s board");
+		System.out.println("view board - displays the user's board");
 		System.out.println("view ships - displays the placement of the ships");
 		System.out.println("fire r c - fires a missile at the cell at [r,c]");
 		System.out.println("stats - prints out the game statistics");
